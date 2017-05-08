@@ -1,7 +1,7 @@
 # [War](https://vjudge.net/problem/UVA-10158)
 
 Medium. 
-In order to solve this problem we need to use the union-find data structure. 
+In order to solve this problem we need to use the union-find data structure. Good tutorial for this cand be found [here](https://www.topcoder.com/community/data-science/data-science-tutorials/disjoint-set-data-structures/) ,[here](http://algs4.cs.princeton.edu/15uf/), [here](https://www.cs.princeton.edu/~rs/AlgsDS07/01UnionFind.pdf), [here](http://www.geeksforgeeks.org/union-find/) and [here](http://www.geeksforgeeks.org/union-find-algorithm-set-2-union-by-rank/)
 
 This problem is solved by using union-find in order to keep track of who is an enemy / friend. 
 It is easy to see how we can use the union-find data structure in order to keep track of our **set** of friends. Unfortunatelly this cannot be said about our **set** of enemies. 
