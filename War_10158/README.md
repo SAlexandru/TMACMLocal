@@ -1,10 +1,12 @@
 # [War](https://vjudge.net/problem/UVA-10158)
 
 Medium. 
+In order to solve this problem we need to use the union-find data structure. 
 
 This problem is solved by using union-find in order to keep track of who is an enemy / friend. 
-It is easy to see how we can use the union-find data structure in order to keep track of our **set** of friends. Unfortunatelly
-this cannot be said about our **set** of enemies. 
+It is easy to see how we can use the union-find data structure in order to keep track of our **set** of friends. Unfortunatelly this cannot be said about our **set** of enemies. 
+
+
 
 The trick here is to remove the need of keeping track of enemies :)
 Assume that every country in the war has another twin with a unique id and that the twins are mortal enemies. 
