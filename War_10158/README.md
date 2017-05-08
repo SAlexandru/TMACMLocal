@@ -1,11 +1,11 @@
 # [War](https://vjudge.net/problem/UVA-10158)
 
 Medium. 
+
 In order to solve this problem we need to use the union-find data structure. Good tutorial for this cand be found [here](https://www.topcoder.com/community/data-science/data-science-tutorials/disjoint-set-data-structures/) ,[here](http://algs4.cs.princeton.edu/15uf/), [here](https://www.cs.princeton.edu/~rs/AlgsDS07/01UnionFind.pdf), [here](http://www.geeksforgeeks.org/union-find/) and [here](http://www.geeksforgeeks.org/union-find-algorithm-set-2-union-by-rank/)
 
-This problem is solved by using union-find in order to keep track of who is an enemy / friend. 
-It is easy to see how we can use the union-find data structure in order to keep track of our **set** of friends. Unfortunatelly this cannot be said about our **set** of enemies. 
-
+We will use the union-find data structure to keep track of who are friends are. 
+It is easy to see how we can use the union-find data structure in order to keep track of our **set** of friends. Unfortunatelly this cannot be said about our **set** of enemies. The enemy relationship is neither reflexive (I am not my own enemy) nor transitive (The enemy of my enemies are my **friends**, not my enemies)
 
 
 The trick here is to remove the need of keeping track of enemies :)
